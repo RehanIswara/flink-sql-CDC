@@ -1,3 +1,3 @@
-FROM debezium/postgres:11
+FROM postgres
 
 COPY postgres_bootstrap.sql /docker-entrypoint-initdb.d/
